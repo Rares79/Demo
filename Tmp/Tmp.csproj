@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3933C0B8-3074-4E7E-8EF4-1F857E979035}</ProjectGuid>
+    <ProjectGuid>{C603FDDB-BC5B-442F-A563-75E40A615B33}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tmp</RootNamespace>
-    <AssemblyName>Tmp</AssemblyName>
+    <RootNamespace>tmp</RootNamespace>
+    <AssemblyName>tmp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

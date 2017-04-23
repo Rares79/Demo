@@ -1,31 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Test
+namespace tmp
 {
-    static void Main()
+    class Program
     {
-        int size = ReadInt32FromConsole("Please enter array size");
-
-        int[] array = new int[size];
-        for (int i = 0; i < size; i++)
+        static void Main(string[] args)
         {
-            array[i] = ReadInt32FromConsole("Please enter element " + i);
-        }
+            Console.WriteLine("Introdceti cuvantul:");
+            string cuvant = Console.ReadLine();
+            int lungime = cuvant.Length ;
+            string[] lista = new string[lungime];
 
-        Console.WriteLine("Finished:");
-        foreach (int i in array)
-        {
-            Console.WriteLine(i);
-        }
-        Console.ReadKey();
-    }
+            Console.WriteLine(lungime);
+            Console.ReadLine();
 
-    static int ReadInt32FromConsole(string message)
-    {
-        Console.Write(message);
-        Console.Write(": ");
-        string line = Console.ReadLine();
-        // Include error checking in real code!
-        return int.Parse(line);
+            for (int i=0;i<lungime;i++ )
+
+            {
+                
+                Console.WriteLine(cuvant[i]);
+            }
+            Console.ReadLine();
+        }
     }
 }
