@@ -1,73 +1,57 @@
-﻿using System;
+﻿//Write a program that reads two arrays from the console and compares them element by element.
 
-namespace Ex_02
+
+using System;
+namespace Telerik.Array.Ex_02.CompareTwoArrays
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // RV: Size of what 1,2, try to five more explicit names
-            int size1;
-            int size2;
+            int sizeOfFirstArry;
+            int sizeOfSecondArray;
 
-            // RV: Try to use english, not Romanian
-            Console.Write("Introduceti marimea array1 (numar):");
-            size1 = int.Parse(Console.ReadLine());
-            int[] myArray1 = new int[size1];
-            // RV: same as for Ex_1, project name, use methoods
-            for (int i = 0; i < myArray1.Length; i++)
+
+            Console.Write("Please insert the size of the first array (number):");
+            sizeOfFirstArry = int.Parse(Console.ReadLine());
+            int[] firstArray = new int[sizeOfFirstArry];
+
+            for (int i = 0; i < firstArray.Length; i++)
             {
-                // RV: ReadIntegerFromConsole would be a better name
-                // RV: Use String.format or other similar mechanism to format strings
-                // RV string txtToRequired... = $"Enter text: {i}";
-                myArray1[i]  = ReadInt32FromConsole("Introduceti elementul " + i);
-               
+                firstArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
             }
-            // RV: Why this extra space?
 
+            Console.Write("Please insert the size of the second array (number):");
+            sizeOfSecondArray = int.Parse(Console.ReadLine());
 
-
-            Console.Write("Introduceti marimea array2 (numar):");
-            size2 = int.Parse(Console.ReadLine());
-            // RV: naming of myarray2....
-            int[] myArray2 = new int[size2];
-            for (int i = 0; i < myArray2.Length; i++)
+            int[] secondArray = new int[sizeOfSecondArray];
+            for (int i = 0; i < secondArray.Length; i++)
             {
-                myArray2[i] = ReadInt32FromConsole("Introduceti elementul " + i);
+                secondArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
 
             }
-            if (size1 != size2)
+            if (sizeOfFirstArry != sizeOfSecondArray)
             {
-                Console.WriteLine("Sunt diferite ca si numar de elemente");
+                Console.WriteLine("The arrays are different due to the number of elements");
                 Console.ReadLine();
             }
             else
-                // RV: never and never use an else without {}!!!!
-                for (int i = 0; i < size1; i++)
             {
-                if (myArray1[i] != myArray2[i])
+
+                for (int i = 0; i < sizeOfFirstArry; i++)
                 {
-                        // RV: formating
-                        // RV: there is no purpose of brake in this case
-                        // RV: Console.WriteLine("dsds {0}  dsds", i);
-                        Console.WriteLine("Elementul "+i +"sunt diferite");
-                        break;
-
+                    if (firstArray[i] != secondArray[i])
+                    {
+                        Console.WriteLine("The element {0} is diferent", i);
+                    }
+                    Console.WriteLine("Arrays size are identical");
                 }
-                    Console.WriteLine("Elementul " + i + "sunt identice");
-                   
-
-                }
-
-
+            }
             Console.ReadKey();
-
         }
-        static int ReadInt32FromConsole(string message)
+        static int ReadIntegerFromConsole(string message)
         {
-            // RV: string format
-            // RV: You don't need two Write. Only one write with string.format   and https://msdn.microsoft.com/en-us/library/34f6bwz3(v=vs.110).aspx                   
-            Console.Write(": ");
+            Console.Write(message);
             string line = Console.ReadLine();
             return int.Parse(line);
         }
