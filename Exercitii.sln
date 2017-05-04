@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_01.Multiplier", "Ex_01\Telerik.Array.Ex_01.Multiplier.csproj", "{5B3388AC-16A2-4328-B182-9F7E1D6FF5C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_01.Multiplier", "Telerik.Array.Ex_01.Multiplier\Telerik.Array.Ex_01.Multiplier.csproj", "{5B3388AC-16A2-4328-B182-9F7E1D6FF5C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_02", "Ex_02\Ex_02.csproj", "{7733CEC2-9C7C-4ADF-82DD-A9851E82F2D5}"
 EndProject

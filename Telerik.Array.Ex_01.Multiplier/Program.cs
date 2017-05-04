@@ -28,9 +28,6 @@ namespace Telerik.Array.Ex_01.Multiplier
             for (int i = 0; i < arrayToMultiply.Length; i++)
             {
                 Console.WriteLine(arrayToMultiply[i]);
-
-
-
             }
             Console.ReadLine();
         }
