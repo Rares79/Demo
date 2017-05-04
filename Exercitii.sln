@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_01.Multipl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_02.CompareTwoArrays", "Ex_02\Telerik.Array.Ex_02.CompareTwoArrays.csproj", "{7733CEC2-9C7C-4ADF-82DD-A9851E82F2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_03", "Ex_03\Ex_03.csproj", "{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_03.CompareTwoArraysLexicograph", "Ex_03\Telerik.Array.Ex_03.CompareTwoArraysLexicograph.csproj", "{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

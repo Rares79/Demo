@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Write a program that compares two char arrays lexicographically (letter by letter).
+
+using System;
 
 namespace Ex_03
 {
