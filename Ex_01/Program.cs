@@ -1,33 +1,35 @@
 ﻿using System;
 
-namespace Ex.Telerik.Array.01.Multiplier
+namespace Telerik.Array.Ex_01.Multiplier
+{
 
-    // RV: Project name Ex_01. You should avoid using _ in the naming. 01 might make sense when you start to resolve a problem from a list
-    // but if you do next day another one from another book and you have 01 again. 
-    // Why not naming the project: 'Ex.Multiplier'. If you want to have 01 you could do 'Ex.01.Multiplier', but in this case it would be
-    // nice to add the chapter or book, something like 'Ex.Telerik.Array.01.Multiplier
     class Program
     {
         static void Main(string[] args)
         {
-            // RV: Size of what? Rename it arraySize
+
             int arraysize = 20;
             int multiplier = 5;
 
-            // RV:  why my? what not just array or arrayToMultiple
+
             int[] arrayToMultiply = new int[arraysize];
 
-            // RV: formating - space between ;. VS can do this for you cmd+k cmd+d
-            for (int i = 0;i<arraysize;i++)
+
+            for (int i = 0; i < arraysize; i++)
             {
                 arrayToMultiply[i] = i * multiplier;
             }
 
-            // RV: You should start using methods for each step. 
-            // PrintArray(...) - similar with the above code
-            for (int i = 0; i < myArray.Length; i++)
+            PrintArray(arrayToMultiply);
+        }
+
+        private static void PrintArray(int[] arrayToMultiply)
+        {
+            for (int i = 0; i < arrayToMultiply.Length; i++)
             {
-                Console.WriteLine(myArray[i]);
+                Console.WriteLine(arrayToMultiply[i]);
+
+
 
             }
             Console.ReadLine();
