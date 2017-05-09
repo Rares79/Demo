@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_02.Compare
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Array.Ex_03.CompareTwoArraysLexicograph", "Ex_03\Telerik.Array.Ex_03.CompareTwoArraysLexicograph.csproj", "{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.MultiDimArray.Ex_01.FillAndPrint", "Telerik.MultiDimArray.Ex_01.FillAndPrint\Telerik.MultiDimArray.Ex_01.FillAndPrint.csproj", "{25418E90-9A2C-4B7E-9793-30C46095CD4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC088A2-FF32-41C2-A93B-BBE5F6113B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25418E90-9A2C-4B7E-9793-30C46095CD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25418E90-9A2C-4B7E-9793-30C46095CD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25418E90-9A2C-4B7E-9793-30C46095CD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25418E90-9A2C-4B7E-9793-30C46095CD4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
