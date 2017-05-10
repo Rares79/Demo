@@ -2,30 +2,69 @@
 
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
 {
     class Program
     {
+        public static void MatrixA(int[,] matrix, int n)
+        {
+            int valueToFill = 1;
+            for (int column = 0; column < matrix.GetLength(1); column++)
+            {
+                for (int row = 0; row < matrix.GetLength(0); row++)
+                {
+                    matrix[row, column] = valueToFill++;
+                }
+            }
+            PrintMatrix(matrix, n);
+        }
+        public static void MatrixB(int[,] matrix, int n)
+        {
+            int valueToFill = 1;
+            for (int column = 0; column < matrix.GetLength(1); column++)
+            {
+                if ((column % 2) == 0)
+                {
+                    for (int row = 0; row < matrix.GetLength(0); row++)
+                    {
+                        matrix[row, column] = valueToFill++;
+                    }
+                }
+                else
+                {
+                    for (int row = matrix.GetLength(0) - 1; row >= 0; row--)
+                    {
+                        matrix[row, column] = valueToFill++;
+                    }
+                }
+            }
+            PrintMatrix(matrix, n);
+        }
+
         public static void PrintMatrix(int[,] matrix, int n)
         {
-            for (int row = 0; row< matrix.GetLength(0); row++)
+            for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                for (int column = 0;row< matrix.GetLength(1); column++)
+                for (int col = 0; col < matrix.GetLength(1); col++)
                 {
-                    Console.Write("{0,5}", matrix[row, column]);
-
+                    Console.Write("{0,5}", matrix[row, col]);
                 }
-                Console.WriteLine(); 
-            }
-
-            static void Main(string[] args)
-            {
-
+                Console.WriteLine();
             }
         }
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the value for n: ");
+
+            int n = int.Parse(Console.ReadLine());
+            int[,] matrix = new int[n, n];
+
+            MatrixA(matrix, n);
+            Console.WriteLine();
+
+            MatrixB(matrix, n);
+            Console.ReadLine();
+        }
     }
+}
