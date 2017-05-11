@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Methods.Ex_01.AskPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Methods.Ex_02.ReturnBiggest", "Telerik.Methods.Ex_02.ReturnBiggest\Telerik.Methods.Ex_02.ReturnBiggest.csproj", "{335038CA-BC85-4848-9453-345AA03AC2DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Methods.Ex_03.ReturnDigitAsWord", "Telerik.Methods.Ex_03.ReturnDigitAsWord\Telerik.Methods.Ex_03.ReturnDigitAsWord.csproj", "{CE3A2938-F443-4A01-85A9-7E6645B5C951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{335038CA-BC85-4848-9453-345AA03AC2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{335038CA-BC85-4848-9453-345AA03AC2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{335038CA-BC85-4848-9453-345AA03AC2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
