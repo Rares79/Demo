@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Methods.Ex_02.Retur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Methods.Ex_03.ReturnDigitAsWord", "Telerik.Methods.Ex_03.ReturnDigitAsWord\Telerik.Methods.Ex_03.ReturnDigitAsWord.csproj", "{CE3A2938-F443-4A01-85A9-7E6645B5C951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Numeral.Ex_01.DecimalToBinary", "Telerik.Numeral.Ex_01.DecimalToBinary\Telerik.Numeral.Ex_01.DecimalToBinary.csproj", "{A54D664B-DF0E-4C91-83B5-962F5588B94D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3A2938-F443-4A01-85A9-7E6645B5C951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54D664B-DF0E-4C91-83B5-962F5588B94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54D664B-DF0E-4C91-83B5-962F5588B94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54D664B-DF0E-4C91-83B5-962F5588B94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54D664B-DF0E-4C91-83B5-962F5588B94D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
