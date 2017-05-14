@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Numeral.Ex_01.Decim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Numeral.Ex_02.BinaryToDecimal", "Telerik.Numeral.Ex_02.BinaryToDecimal\Telerik.Numeral.Ex_02.BinaryToDecimal.csproj", "{1F1D1F22-327D-4532-B443-58098A5A7159}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Classes.Ex_01.IsAleapYear", "Telerik.Classes.Ex_01.IsAleapYear\Telerik.Classes.Ex_01.IsAleapYear.csproj", "{5A9CDE32-6C5E-4BC6-873A-6AED981A4895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1F1D1F22-327D-4532-B443-58098A5A7159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1D1F22-327D-4532-B443-58098A5A7159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1D1F22-327D-4532-B443-58098A5A7159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9CDE32-6C5E-4BC6-873A-6AED981A4895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9CDE32-6C5E-4BC6-873A-6AED981A4895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9CDE32-6C5E-4BC6-873A-6AED981A4895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9CDE32-6C5E-4BC6-873A-6AED981A4895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
