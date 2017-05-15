@@ -16,28 +16,31 @@ namespace Telerik.Array.Ex_02.CompareTwoArrays
             sizeOfFirstArry = int.Parse(Console.ReadLine());
             int[] firstArray = new int[sizeOfFirstArry];
 
+            // RV: Why not extract other methods also?
             for (int i = 0; i < firstArray.Length; i++)
             {
+                // RV: Naming of method. GetIntegerFromConsole
                 firstArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
             }
 
             Console.Write("Please insert the size of the second array (number):");
             sizeOfSecondArray = int.Parse(Console.ReadLine());
 
+            // RV: Extract to method.
             int[] secondArray = new int[sizeOfSecondArray];
             for (int i = 0; i < secondArray.Length; i++)
             {
-                secondArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
+                secondArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:"); // RV: Why you have a new line after this?
 
             }
             if (sizeOfFirstArry != sizeOfSecondArray)
             {
                 Console.WriteLine("The arrays are different due to the number of elements");
-                Console.ReadLine();
+                Console.ReadLine(); // RV: What is the purpose of this readline?
             }
             else
             {
-
+                // RV: Why not extract to a method. 
                 for (int i = 0; i < sizeOfFirstArry; i++)
                 {
                     if (firstArray[i] != secondArray[i])

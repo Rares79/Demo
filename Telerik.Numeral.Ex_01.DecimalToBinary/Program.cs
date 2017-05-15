@@ -12,6 +12,7 @@ namespace Telerik.Numeral.Ex_01.DecimalToBinary
     {
         static void Main(string[] args)
         {
+            // RV: Are you sure that this was the requirment? I think that you should use the 'manual' conversion. 
             int numberToConvert;
             Console.WriteLine("Please insert the number for conversion:");
             numberToConvert = int.Parse(Console.ReadLine());

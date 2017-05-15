@@ -7,8 +7,10 @@ namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
 {
     class Program
     {
+        // RV: What is A?B
         public static void MatrixA(int[,] matrix, int n)
         {
+            // RV: This could be const. at class level.
             int valueToFill = 1;
             for (int column = 0; column < matrix.GetLength(1); column++)
             {
@@ -17,10 +19,13 @@ namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
                     matrix[row, column] = valueToFill++;
                 }
             }
+
+            // RV: I would call print outside this method.
             PrintMatrix(matrix, n);
         }
         public static void MatrixB(int[,] matrix, int n)
         {
+            // Same comments as for MatrixA
             int valueToFill = 1;
             for (int column = 0; column < matrix.GetLength(1); column++)
             {

@@ -8,6 +8,7 @@ namespace Telerik.Methods.Ex_02.ReturnBiggest
     {
         private static int GetMaxFromArray(int[] array)
         {
+            // RV: I challenge you to find the C# functions that do this automatically. You don't need to replace the code, just look for it. 
             int maximum = array[0];
             for (int i = 0; i < array.Length; i++)
             {
@@ -32,6 +33,7 @@ namespace Telerik.Methods.Ex_02.ReturnBiggest
 
             for (int i = 0; i < arrayToCompare.Length; i++)
             {
+                // RV: GetInteger. If you reuse code, why not create a common library.
                 arrayToCompare[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
             }
 

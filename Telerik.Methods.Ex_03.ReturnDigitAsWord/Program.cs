@@ -8,6 +8,7 @@ namespace Telerik.Methods.Ex_03.ReturnDigitAsWord
     {
         private static string TransformDigitInWord(int digit)
         {
+            // RV: Is working but is ugly. Rewrite it using an array, list of dictionary. 
             switch (digit)
             {
                 case 0:

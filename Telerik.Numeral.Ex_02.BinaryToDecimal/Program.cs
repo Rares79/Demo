@@ -11,6 +11,7 @@ namespace Telerik.Numeral.Ex_02.BinaryToDecimal
     {
         static void Main(string[] args)
         {
+            // RV: Same as for previous.
             string numberToConvert;
             Console.WriteLine("Please insert the number for conversion:");
             numberToConvert =Console.ReadLine();
