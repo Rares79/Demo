@@ -1,7 +1,10 @@
-﻿//Write a method that returns the last digit of given integer as an English word. Examples: 512  "two", 1024  "four", 12309  "nine".
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Telerik.Methods.Ex_03.ReturnDigitAsWord
+namespace Del_del
 {
     class Program
     {
@@ -9,15 +12,15 @@ namespace Telerik.Methods.Ex_03.ReturnDigitAsWord
         {
             return Int32.Parse(numberAsString.Substring(numberAsString.Length - 1, 1));
         }
-        static void Main()
+        static void Main(string[] args)
         {
-            string[] digit = new string[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            string[] digit= new string[] { "zero", "one", "two", "three", "four", "five", "six","seven","eight","nine" };
             string numberAsString;
             int lastDigit;
             Console.WriteLine("Please insert a number (integer)");
             numberAsString = Console.ReadLine();
             lastDigit = ExtractLastDigit(numberAsString);
-            Console.WriteLine(digit[lastDigit]);
+            Console.WriteLine(digit [lastDigit]);
             Console.ReadKey();
         }
     }

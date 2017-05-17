@@ -10,8 +10,6 @@ namespace Telerik.Array.Ex_01.Multiplier
             // RV: Could be declared as const
             int arraysize = 20;
             int multiplier = 5;// RV:  Why you have two new lines under it?
-
-
             int[] arrayToMultiply = new int[arraysize];
 
             // RV: Why not extract this as a method.
