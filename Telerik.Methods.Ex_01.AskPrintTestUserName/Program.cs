@@ -1,9 +1,8 @@
-﻿//Write a method that asks the user for his name and prints “Hello, <name>” (for example, “Hello, Peter!”). Write a program to test this method.
-
-using System;
+﻿using System;
 
 namespace Telerik.Methods.Ex_01.AskPrintTestUserName
 {
+    //Write a method that asks the user for his name and prints “Hello, <name>” (for example, “Hello, Peter!”). Write a program to test this method.
     class Program
     {
         private static void GetUserName()

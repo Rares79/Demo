@@ -20,7 +20,7 @@ namespace Telerik.Array.Ex_02.CompareTwoArrays
             for (int i = 0; i < firstArray.Length; i++)
             {
                 // RV: Naming of method. GetIntegerFromConsole
-                firstArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:");
+                firstArray[i] = GetIntegerFromConsole($"Please insert the element {i}:");
             }
 
             Console.Write("Please insert the size of the second array (number):");
@@ -30,13 +30,11 @@ namespace Telerik.Array.Ex_02.CompareTwoArrays
             int[] secondArray = new int[sizeOfSecondArray];
             for (int i = 0; i < secondArray.Length; i++)
             {
-                secondArray[i] = ReadIntegerFromConsole($"Please insert the element {i}:"); // RV: Why you have a new line after this?
-
+                secondArray[i] = GetIntegerFromConsole($"Please insert the element {i}:"); 
             }
             if (sizeOfFirstArry != sizeOfSecondArray)
             {
                 Console.WriteLine("The arrays are different due to the number of elements");
-                Console.ReadLine(); // RV: What is the purpose of this readline?
             }
             else
             {
@@ -52,7 +50,7 @@ namespace Telerik.Array.Ex_02.CompareTwoArrays
             }
             Console.ReadKey();
         }
-        static int ReadIntegerFromConsole(string message)
+        static int GetIntegerFromConsole(string message)
         {
             Console.Write(message);
             string line = Console.ReadLine();

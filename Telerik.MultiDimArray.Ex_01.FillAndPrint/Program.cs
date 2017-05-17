@@ -1,16 +1,13 @@
-﻿//Write a program that fills and prints a matrix of size(n, n) as shown below: (examples for n = 4)
-
-
-using System;
+﻿using System;
 
 namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
 {
+    //Write a program that fills and prints a matrix of size(n, n) as shown below: (examples for n = 4)
     class Program
     {
-        // RV: What is A?B
         public static void MatrixA(int[,] matrix, int n)
         {
-            // RV: This could be const. at class level.
+            // RV: This could be const. at class level.?
             int valueToFill = 1;
             for (int column = 0; column < matrix.GetLength(1); column++)
             {
@@ -19,13 +16,9 @@ namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
                     matrix[row, column] = valueToFill++;
                 }
             }
-
-            // RV: I would call print outside this method.
-            PrintMatrix(matrix, n);
         }
         public static void MatrixB(int[,] matrix, int n)
         {
-            // Same comments as for MatrixA
             int valueToFill = 1;
             for (int column = 0; column < matrix.GetLength(1); column++)
             {
@@ -44,9 +37,8 @@ namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
                     }
                 }
             }
-            PrintMatrix(matrix, n);
-        }
 
+        }
         public static void PrintMatrix(int[,] matrix, int n)
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
@@ -66,9 +58,11 @@ namespace Telerik.MultiDimArray.Ex_01.FillAndPrint
             int[,] matrix = new int[n, n];
 
             MatrixA(matrix, n);
+            PrintMatrix(matrix, n);
             Console.WriteLine();
 
             MatrixB(matrix, n);
+            PrintMatrix(matrix, n);
             Console.ReadLine();
         }
     }

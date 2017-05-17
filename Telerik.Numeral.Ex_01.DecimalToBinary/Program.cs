@@ -1,14 +1,12 @@
-﻿//Write a program to convert decimal numbers to their binary representation.
-
-using System;
+﻿using System;
 
 namespace Telerik.Numeral.Ex_01.DecimalToBinary
 {
+    //Write a program to convert decimal numbers to their binary representation.
     class Program
     {
         static void Main(string[] args)
         {
-            // RV: Are you sure that this was the requirment? I think that you should use the 'manual' conversion. 
             int numberToConvert;
             Console.WriteLine("Please insert the number for conversion:");
             numberToConvert = int.Parse(Console.ReadLine());
