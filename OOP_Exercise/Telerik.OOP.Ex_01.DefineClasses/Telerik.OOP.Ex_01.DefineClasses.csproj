@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28E5CB3F-87EE-4697-8160-6408154D6F5F}</ProjectGuid>
+    <ProjectGuid>{B7F85CB8-3425-4400-9E11-3B624932BA7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Del_del</RootNamespace>
-    <AssemblyName>Del_del</AssemblyName>
+    <RootNamespace>Telerik.OOP.Ex_01.DefineClasses</RootNamespace>
+    <AssemblyName>Telerik.OOP.Ex_01.DefineClasses</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Battery.cs" />
+    <Compile Include="Display.cs" />
+    <Compile Include="GSM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

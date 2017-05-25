@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Del_del")]
+[assembly: AssemblyTitle("Telerik.OOP.Ex_01.DefineClasses")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Del_del")]
+[assembly: AssemblyProduct("Telerik.OOP.Ex_01.DefineClasses")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("28e5cb3f-87ee-4697-8160-6408154d6f5f")]
+[assembly: Guid("b7f85cb8-3425-4400-9e11-3b624932ba7f")]
 
 // Version information for an assembly consists of the following four values:
 //
