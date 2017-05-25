@@ -1,6 +1,8 @@
-﻿namespace Telerik.OOP.Ex_01.DefineClasses
+﻿using System;
+namespace Telerik.OOP.Ex_01.DefineClasses
+
 {
-    private class GSM
+    public class GSM
     {
         private Battery battery = null;
         private Display display = null;
@@ -14,6 +16,13 @@
         {
             battery = new Battery();
             display = new Display();
+        }
+        public GSM(string model, string manufacturer, float price, string owner)
+        {
+            this.Model = model;
+            this.Manufacturer = manufacturer;
+            this.Price = price;
+            this.Owner = owner;
         }
 
     }
